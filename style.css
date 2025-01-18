@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 /* header */
 
@@ -48,7 +49,6 @@ header{
     justify-content: space-around;
     align-items: center;
     display: flex;
-    background-color: rgb(244, 255, 88);
     height: 100vh;
     background-image: url(4171890.jpg);
     background-size: cover;
@@ -145,5 +145,9 @@ header{
     .home{
         display: flex;
         flex-direction: column-reverse;
+    }
+    .home img{
+        height: 300px;
+        width: 340px;
     }
 }
