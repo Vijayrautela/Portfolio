@@ -85,8 +85,10 @@ header{
     width: 90px;
     border: 2px solid orangered;
     border-radius: 30px;
+    background: transparent;
 }
 .home-con button a{
+    color: orangered;
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
@@ -145,6 +147,9 @@ header{
     .home{
         display: flex;
         flex-direction: column-reverse;
+    }
+    .home-con{
+        margin-top: -130px;
     }
     .home img{
         height: 300px;
