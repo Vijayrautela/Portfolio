@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    position: sticky;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 0 10px;
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    height: 50px;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    margin: 0 20px;
+}
+.menu p{
+    font-size: 20px;
+    color: rgb(115, 115, 115);
+}
+.menu img {
+    height: 20px;
+    width: 20px;
+}
+
+.menu:hover ,.menu p:hover ,.menu img:hover{
+    color: orangered;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/* body */
+
+/* home */
+
+.home{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: rgb(244, 255, 88);
+    height: 100vh;
+    background-image: url(4171890.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+.home-con{
+    margin-top: 30px;
+}
+.home-con p{
+    font-size: 30px;
+    color: orangered;
+}
+.home-con h3{
+    font-size: 50px;
+}
+.home-con h3 span{
+    color: orangered;
+}
+.home-con h4{
+    font-size:40px;
+}
+.home-pic img{
+    margin: 30px 0 0 0;
+    border: 2px solid orangered;
+    border-radius: 50%;
+    height: 380px;
+    width: 400px;
+}      
+
+.home-con button {
+    margin: 30px 10px 10px 10px;
+    height: 40px;
+    width: 90px;
+    border: 2px solid orangered;
+    border-radius: 30px;
+}
+.home-con button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.home-con button:hover {
+    scale: 1.2;
+}
+
+
+/* About */
+
+.About{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    background-color: rgb(30, 30, 30);
+}
+.about-con{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.about-con h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 10px 0 0 0;
+}
+.about-con p{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    width: 60vw;
+    height: auto;
+    margin: 20px 0 20px 0;
+}
+
+.about-con-progress{
+    color: rgb(255, 255, 255);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-con-progress progress{
+    margin: 5px;
+    width: 50vw;
+    height: 20px;
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 803px){
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
