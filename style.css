@@ -197,6 +197,30 @@ body{
     box-shadow:rgb(253, 91, 32) 2px 2px 2px 3px;
 }
 
+/* CV */
+
+.cv{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.cv button{
+    background: transparent;
+    border: 1px solid orangered;
+    border-radius: 25px;
+    height: 5vh;
+    width: 20vw;
+}
+
+.cv button a{
+    color: orangered;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 
 
 
