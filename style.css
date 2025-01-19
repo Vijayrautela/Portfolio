@@ -3,6 +3,9 @@
     padding: 0;
     color: white;
 }
+
+
+
 /* header */
 
 h2{
@@ -227,6 +230,12 @@ body{
 /* Responsive */
 
 @media screen and (max-width: 803px){
+    * {
+        font-family: "Caveat", serif;
+        /* font-optical-sizing: auto; */
+        font-weight: 400;
+        font-style: normal;
+      }
     .home{
         display: flex;
         flex-direction: column-reverse;
