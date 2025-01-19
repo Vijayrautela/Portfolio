@@ -252,4 +252,8 @@ body{
         width: 80vw;
         height: auto;
     }
+
+    .cv button{
+        width: 30vw;
+    }
 }
