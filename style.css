@@ -194,7 +194,7 @@ body{
 
 .education-con .box:hover{
     scale: 1.1;
-    box-shadow:rgb(253, 91, 32) 3px 3px 6px 6px;
+    box-shadow:rgb(253, 91, 32) 2px 2px 2px 3px;
 }
 
 
