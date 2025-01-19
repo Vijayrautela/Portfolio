@@ -41,6 +41,10 @@ header{
 }
 
 /* body */
+body{
+    background-color: rgb(30, 30, 30);
+}
+
 
 /* home */
 
@@ -145,10 +149,54 @@ header{
 
 .info ul li{
     list-style: none;
-    font-size: 16px;
+    font-size: 19px;
     color: rgb(119, 119, 119);
     margin: 10px 10px 10px 0;
 }
+
+/* Education */
+
+.education{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.education .i{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 10px 0 0 0;
+}
+.education-con{
+    display: flex;
+}
+.education-con .box{
+    border: 1px solid gray;
+    background-color: rgb(48, 47, 47);
+    border-radius: 5px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 20vh;
+    width: 20vw;
+}
+.education-con .box h2{
+    color: orangered;
+}
+
+.education-con .box p{
+    margin-top: 10px;
+    color: rgb(134, 133, 133);
+}
+
+.education-con .box:hover{
+    scale: 1.1;
+    box-shadow:rgb(253, 91, 32) 3px 3px 6px 6px;
+}
+
 
 
 
@@ -165,5 +213,19 @@ header{
     .home img{
         height: 300px;
         width: 340px;
+    }
+    .about-con p{
+        width: 80vw;
+    }  
+    .about-con-progress progress{
+        width: 80vw;
+    }
+
+    .education-con{
+        display: grid;
+    }
+    .education-con .box{
+        width: 80vw;
+        height: auto;
     }
 }
